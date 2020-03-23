@@ -1,193 +1,204 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+  <header>
+    <nav>
+      <div class="topnav" id="menu">
+        <img class="logo-img" src="logo.png" width="80" height="80" ALT="align box" ALIGN=Left>
+        <a href="#about">About Me</a>
+        <a href="#photos">My Photos</a>
+        <a href="#playlist">My Playlist</a>
+        <a href="#like">Like</a>
+        <a href="#qrcoder">QR code</a>
+        <a href="#spa">Q&A</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+    </nav>
+  </header>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+  <div class="wrapper">
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="about" class="section">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 align="center">About The Guy</h1>
+      <br />
+      <p align="center">
+        hi! im The Guy and i'm a bike-riding delivery salesman in NYC
+        <br>i like to hangout with my dog FOMO and meet the people of New York
+      </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+    </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="photos" class="section">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 align="center">My Photos</h1>
+      <br />
+      <br />
+      <img src="1.jpg" class="center">
+      <br />
+      <img src="2.jpg" class="center">
+      <br />
+      <img src="3.jpg" class="center">
+      <br />
+      <img src="4.jpg" class="center">
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr>
+    </section>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="playlist" class="section">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 align="center">my playlist</h1>
+      <br />
+      <br />
+      <p align="center">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLzv4HzElJvjwVgjHWu5cl78P98qUjYCAl"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr>
+    </section>
+
+    <section id="like" class="section">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 align="center">give me a like</h1>
+      <br />
+      <br />
+      <br />
+      <p align="center">
+        <iframe
+          src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/HBO/width=450&layout=standard&action=like&size=small&share=true&height=35&appId"
+          width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowTransparency="true" allow="encrypted-media"></iframe>
+        <br />
+        <br />
+        <br />
+        <br />
+        <hr>
+    </section>
+
+    </p>
+    <section id="qrcoder" class="section">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 align="center">scan my code</h1>
+      <p align="center">
+        <img class="resize" src="qr.png" class="center">
+
+      </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr>
+    </section>
+
+    <section id="spa" class="section">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 align="center">ans</h1>
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr>
+    </section>
+
+    <section id="contact" class="section">
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 align="center">contact me</h1>
+      <br />
+      <br />
+      <form method="post" action="mailto:TheGuy@fakeDomail.com" enctype="text/plain">
+        <P><STRONG>Your Name: </STRONG>
+          <INPUT NAME="name" TYPE="text" SIZE="25"></P>
+
+        <P><STRONG>Comments:</STRONG>
+          <TEXTAREA NAME="comments" ROWS="4" COLS="36"></TEXTAREA>
+        </P>
+        <p><STRONG>Select an Emoji:</STRONG>
+          <SELECT NAME="rating">
+            <option SELECTED>😀</option>
+            <option>🥴</option>
+            <option>🍺</option>
+            <option>🍀</option>
+          </SELECT></P>
+        </p>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+      </form>
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+  </div>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });​
+  </script>
 </body>
+
 </html>
